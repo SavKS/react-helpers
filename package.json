@@ -1,0 +1,39 @@
+{
+    "name": "@savks/react-helpers",
+    "version": "1.0.0",
+    "description": "React helpers",
+    "license": "MIT",
+    "author": "Savks",
+    "sideEffects": false,
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc"
+    },
+    "dependencies": {
+        "is-promise": "^4.0.0",
+        "uuid": "^8.3.2"
+    },
+    "devDependencies": {
+        "@types/lodash": "^4.14.182",
+        "@types/react": "^18.0.9",
+        "@types/uuid": "^8.3.4",
+        "@typescript-eslint/eslint-plugin": "^5.2.0",
+        "@typescript-eslint/parser": "^5.2.0",
+        "eslint": "^8.1.0",
+        "eslint-config-crockford": "^2.0.0",
+        "eslint-plugin-react": "^7.29.4",
+        "eslint-plugin-react-hooks": "^4.5.0",
+        "typescript": "^4.4.4",
+        "@savks/not-need-lodash": "^1.1.6",
+        "@reduxjs/toolkit": "^1.8.1"
+    },
+    "peerDependencies": {
+        "react": "^17.0.0",
+        "@savks/not-need-lodash": "^1.1.6",
+        "@reduxjs/toolkit": "^1.8.1"
+    },
+    "volta": {
+        "node": "17.9.0"
+    }
+}
