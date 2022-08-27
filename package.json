@@ -1,6 +1,6 @@
 {
     "name": "@savks/react-helpers",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "React helpers",
     "license": "MIT",
     "author": "Savks",
@@ -36,5 +36,10 @@
     },
     "volta": {
         "node": "17.9.0"
-    }
+    },
+    "files": [
+        "dist/*.js",
+        "dist/*.d.ts",
+        "dist/*.js.map"
+    ]
 }
