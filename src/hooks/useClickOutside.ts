@@ -1,5 +1,6 @@
-import useMemoCompare from './useMemoCompare';
 import { useCallback, useEffect } from 'react';
+
+import useMemoCompare from './useMemoCompare.js';
 
 type BaseConfig = {
     handler: (event: MouseEvent) => void,

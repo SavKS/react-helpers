@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
-import useMemoCompare from './useMemoCompare';
+
+import useMemoCompare from './useMemoCompare.js';
 
 type BreakpointParams = number | string | (string | number)[];
 

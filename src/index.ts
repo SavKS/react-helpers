@@ -1,11 +1,11 @@
-import useMemoCompare from './hooks/useMemoCompare';
-import useRunIfMounted from './hooks/useRunIfMounted';
-import useComponentId from './hooks/useComponentId';
-import useRequiredContext from './hooks/useRequiredContext';
-import useToggle from './hooks/useToggle';
-import useClickOutside from './hooks/useClickOutside';
-import useBreakpoints from './hooks/useBreakpoints';
-import useDebugMountUnmount from './hooks/useDebugMountUnmount';
+import useBreakpoints from './hooks/useBreakpoints.js';
+import useClickOutside from './hooks/useClickOutside.js';
+import useComponentId from './hooks/useComponentId.js';
+import useDebugMountUnmount from './hooks/useDebugMountUnmount.js';
+import useMemoCompare from './hooks/useMemoCompare.js';
+import useRequiredContext from './hooks/useRequiredContext.js';
+import useRunIfMounted from './hooks/useRunIfMounted.js';
+import useToggle from './hooks/useToggle.js';
 
 export {
     useMemoCompare,

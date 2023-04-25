@@ -1,0 +1,12 @@
+diff --git a/package.json b/package.json
+index 2a3c5404ac7c93d0626d3b36eb06021616d8af7c..39282893d2ad296ed11f4c6d9050675c28991b4c 100644
+--- a/package.json
++++ b/package.json
+@@ -3,6 +3,7 @@
+   "version": "4.0.0",
+   "description": "Test whether an object looks like a promises-a+ promise",
+   "main": "./index.js",
++  "type": "module",
+   "scripts": {
+     "test": "node test"
+   },
