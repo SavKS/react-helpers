@@ -1,12 +1,13 @@
 {
     "name": "@savks/react-helpers",
-    "version": "1.0.3",
+    "version": "1.1.0",
     "description": "React helpers",
     "license": "MIT",
     "author": "Savks",
     "sideEffects": false,
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
+    "type": "module",
     "scripts": {
         "build": "tsc",
         "prepack": "yarn build"
