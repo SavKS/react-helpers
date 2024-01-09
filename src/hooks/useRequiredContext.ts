@@ -4,6 +4,8 @@ function useRequiredContext<T>(context: Context<T | undefined>, name?: string): 
 
 function useRequiredContext<T>(context: Context<T | null>, name?: string): T;
 
+function useRequiredContext<T>(context: Context<T>, name?: string): T;
+
 function useRequiredContext<T>(context: Context<T | undefined>, name?: string) {
     const payload = useContext(context);
 
