@@ -2,8 +2,6 @@ import { Context, useContext } from 'react';
 
 function useRequiredContext<T>(context: Context<T | undefined>, name?: string): T;
 
-function useRequiredContext<T>(context: Context<T | null>, name?: string): T;
-
 function useRequiredContext<T>(context: Context<T>, name?: string): T;
 
 function useRequiredContext<T>(context: Context<T | undefined>, name?: string) {
